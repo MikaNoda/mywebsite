@@ -1,0 +1,35 @@
+.body-wrap{
+    width: 1152px;
+    margin: 0 auto;
+}
+.header-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.header-left img {
+    width: 40px;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    // background-image: url(../../img/bingata.jpeg);
+    // background-size: cover;
+}
+
+ul {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: -1px -1px 4px gray, -1px 0 4px gray, -1px 1px 4px gray, 0 -1px 4px gray, 0 1px 4px gray, 1px -1px 4px gray, 1px 0 4px gray, 1px 1px 4px gray;
+}
+
+li {
+    margin: 20px;
+}

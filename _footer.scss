@@ -1,0 +1,132 @@
+/* *{
+    border: solid 1px black;
+}  */
+
+
+footer {
+    // background-image: url(../../img/bingata.jpeg);
+    // background-size: cover;
+    // background-position: bottom;
+    padding: 10px 30px;
+    color: white;
+    text-shadow: -1px -1px 4px gray, -1px 0 4px gray, -1px 1px 4px gray, 0 -1px 4px gray, 0 1px 4px gray, 1px -1px 4px gray, 1px 0 4px gray, 1px 1px 4px gray;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        position: fixed;
+        width: 100%;
+        padding: 10px 25px;
+    }
+
+    .header-title {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    ul {
+        display: block;
+    }
+
+    .header-right li {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .main-title {
+        font-size: 40px;
+    }
+
+    .subtitle {
+        font-size: 25px;
+        margin-bottom:15px;
+    }
+
+    #about,#recommend,#contact{
+        padding-top: 75px;
+    }
+
+    .container {
+        display: block;
+
+    }
+
+    .profile-img {
+        max-width: 140px;
+
+    }
+
+    .profile-left {
+        text-align: center;
+    }
+
+    .profile-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .profile-right {
+        padding-left: 0;
+    }
+
+    .detaile {
+        margin: 0 auto;
+    }
+
+    .detaile td,
+    th {
+        font-size: 13px;
+    }
+
+    .detaile td {
+        word-break: break-all;
+    }
+
+    .text {
+        font-size: 12px;
+        padding: 0 30px;
+    }
+
+    #miyakojima {
+        display: block;
+    }
+
+    #miyakojima img {
+        max-height: 320px;
+    }
+
+    .rec-title {
+        font-size: 15px;
+    }
+
+    .rec-text {
+        font-size: 12px;
+        padding: 10px 30px;
+    }
+
+    .rec,
+    .rec-center,
+    .rec-bottom {
+        margin-bottom: 25px;
+    }
+
+    form input,
+    textarea {
+        width: 70%;
+        font-size: 12px;
+    }
+
+    form button {
+        width: 100px;
+    }
+
+    footer {
+        margin-top: 50px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+}
